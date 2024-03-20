@@ -1,5 +1,6 @@
 
-
+@import "./utilities/variables";
+@import "./utilities/mixin";
 @import "./../sass/components/header";
 @import "./../sass/utilities/globals";
 @import "./../sass/pages/main-index";
@@ -9,6 +10,7 @@
 @import "./pages/main-galeria";
 @import "./pages/main-contactos";
 @import "./../sass/utilities/media-queries";
+
 
 
 

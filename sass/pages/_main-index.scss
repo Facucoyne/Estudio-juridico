@@ -5,9 +5,10 @@ body{
 
 .body1{
     min-height: 50vh;
-    display: flex;
+    @include flex(flex, center, center);
+    /*display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;*/
     background-color: #1e1e1e;
 
     .wrapper{

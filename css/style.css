@@ -93,8 +93,12 @@ body {
 .body1 {
   min-height: 50vh;
   display: flex;
+  flex-direction: flex;
   justify-content: center;
   align-items: center;
+  /*display: flex;
+  justify-content: center;
+  align-items: center;*/
   background-color: #1e1e1e;
 }
 .body1 .wrapper {
@@ -238,7 +242,7 @@ body {
   letter-spacing: 2px;
 }
 .about p {
-  color: burlywood;
+  color: #e8c57b;
   font-size: 18px;
   line-height: 28px;
   letter-spacing: 1px;
