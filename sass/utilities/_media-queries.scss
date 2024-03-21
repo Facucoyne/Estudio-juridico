@@ -113,7 +113,7 @@
 
     @media screen and (max-width: 360px){
         .about{
-            width: 250px;
+            width: 300px;
         }
 
         .texto{
@@ -166,3 +166,12 @@
     }
     
 
+
+    @media screen and (max-width: 360px){
+        img{
+            width: 98%;
+            align-items: center;
+            
+        }
+    
+    }

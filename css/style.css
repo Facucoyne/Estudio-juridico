@@ -211,7 +211,7 @@ body {
 }
 .about .content1 img {
   margin: auto;
-  width: 500px;
+  width: 450px;
   max-width: 1200px;
   border-radius: 10px 12px;
 }
@@ -273,7 +273,7 @@ body {
   margin-top: 10px;
 }
 .AboutSection .image {
-  width: 500px;
+  width: 388px;
 }
 .AboutSection img {
   width: 100%;
@@ -468,7 +468,7 @@ body {
 }
 @media screen and (max-width: 360px) {
   .about {
-    width: 250px;
+    width: 300px;
   }
   .texto {
     margin-left: 60px;
@@ -502,6 +502,12 @@ body {
   }
   p {
     text-align: center;
+  }
+}
+@media screen and (max-width: 360px) {
+  img {
+    width: 98%;
+    align-items: center;
   }
 }
 
