@@ -172,14 +172,10 @@ body {
 .pie-pagina img {
   width: 70px;
 }
-.pie-pagina .box h2 {
+.pie-pagina .box h2, .pie-pagina .box p {
   color: #fff;
   margin-bottom: 25px;
-  font-size: 20px;
-}
-.pie-pagina p {
-  color: #efefef;
-  margin-bottom: 10px;
+  font-size: 15px;
 }
 .pie-pagina .red-social a {
   display: inline-block;
@@ -234,7 +230,7 @@ body {
   justify-content: space-around;
   align-items: center;
 }
-.about .texto h2 {
+.about .texto h2, .about .texto .pie-pagina p, .pie-pagina .about .texto p {
   color: beige;
   font-size: 25px;
   margin-bottom: 25px;
@@ -265,7 +261,7 @@ body {
   width: 50%;
   margin: 0px 20px;
 }
-.AboutSection h2 {
+.AboutSection h2, .AboutSection .pie-pagina p, .pie-pagina .AboutSection p {
   font-size: 30px;
   color: beige;
   text-align: center;
@@ -346,7 +342,7 @@ body {
   max-width: 880px;
   margin: 0 auto;
 }
-.contact h2 {
+.contact h2, .contact .pie-pagina p, .pie-pagina .contact p {
   font-size: 36px;
   margin-bottom: 40px;
   color: #333;
@@ -494,14 +490,14 @@ body {
     flex-direction: column;
     margin-top: 0px;
   }
-  .AboutSection .heading h2 {
+  .AboutSection .heading h2, .AboutSection .heading .pie-pagina p, .pie-pagina .AboutSection .heading p {
     font-size: 40px;
   }
   .contentSection, .image {
     width: 100%;
     margin-top: 20px;
   }
-  h2 {
+  h2, .pie-pagina p {
     text-align: center;
   }
   p {
