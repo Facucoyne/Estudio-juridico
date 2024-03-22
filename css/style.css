@@ -211,7 +211,7 @@ body {
 }
 .about .content1 img {
   margin: auto;
-  width: 450px;
+  width: 400px;
   max-width: 1200px;
   border-radius: 10px 12px;
 }
@@ -468,7 +468,7 @@ body {
 }
 @media screen and (max-width: 360px) {
   .about {
-    width: 300px;
+    width: 315px;
   }
   .texto {
     margin-left: 60px;
@@ -505,9 +505,8 @@ body {
   }
 }
 @media screen and (max-width: 360px) {
-  img {
-    width: 98%;
-    align-items: center;
+  .AboutSection {
+    width: 317px;
   }
 }
 
